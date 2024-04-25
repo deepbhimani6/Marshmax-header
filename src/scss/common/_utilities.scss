@@ -1,0 +1,95 @@
+.small-label {
+  font-size: $bodyXS;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/*------- Font Size Classes -------*/
+
+.headingL {
+  font-size: $headingL;
+}
+.headingM {
+  font-size: $headingM;
+}
+.headingS {
+  font-size: $headingS;
+}
+.headingXS {
+  font-size: $headingXS;
+}
+.bodyL {
+  font-size: $bodyL;
+}
+.bodyM {
+  font-size: $bodyM;
+}
+.bodyS {
+  font-size: $bodyS;
+}
+.bodyXS {
+  font-size: $bodyXS;
+}
+
+/*------- Font weight Classes -------*/
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.text-title {
+  font-size: 32px;
+  @include media-breakpoint-up(lg) {
+    font-size: 38px;
+  }
+}
+
+/*------- color Classes -------*/
+
+.text--warning {
+  color: $warning;
+}
+
+.bg--warning {
+  background-color: $warning;
+}
+
+.bg-gray {
+  background-color: $gray;
+}
+
+.bg-light-gray {
+  background-color: #f4f4f4;
+}
+
+.border-gray-top {
+  border-top: 1px solid rgba(112, 112, 112, 0.5);
+}
+.border-gray-bottom {
+  border-bottom: 1px solid rgba(112, 112, 112, 0.5);
+}
+
+.transition {
+  @include generate-transition(all, 0.4s, ease-in-out);
+}
+
+.bg-primary-hover {
+  background-color: $primary;
+
+  &:hover {
+    background-color: $secondary;
+  }
+}
+
+.z-index-9 {
+  z-index: 9;
+}
+.z-index-10 {
+  z-index: 10;
+}
+.leading-relax {
+  line-height: 2;
+}
+.cursor-pointer {
+  cursor: pointer;
+}

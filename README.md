@@ -1,1 +1,3 @@
-# Marshmax-header
+# After Clone
+
+Use commend "npm i"
